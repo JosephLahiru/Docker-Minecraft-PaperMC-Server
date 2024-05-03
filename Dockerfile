@@ -53,7 +53,7 @@ EXPOSE 25565/tcp
 EXPOSE 25565/udp
 
 # Set memory size
-ARG memory_size=1G
+ARG memory_size=4G
 ENV MEMORYSIZE=$memory_size
 
 # Set Java Flags
